@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISCProcessor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISCProcessor" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="119"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/RISCProcessor/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/RAM_WriteEnable" type="logic">
+      <obj_property name="ElementShortName">RAM_WriteEnable</obj_property>
+      <obj_property name="ObjectShortName">RAM_WriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/dataI" type="array">
+      <obj_property name="ElementShortName">dataI[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataI[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/Ra" type="array">
+      <obj_property name="ElementShortName">Ra[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Ra[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/Rb" type="array">
+      <obj_property name="ElementShortName">Rb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rb[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/Rd" type="array">
+      <obj_property name="ElementShortName">Rd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/dataA" type="array">
+      <obj_property name="ElementShortName">dataA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/dataB" type="array">
+      <obj_property name="ElementShortName">dataB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataB[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/dataD" type="array">
+      <obj_property name="ElementShortName">dataD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/dataO" type="array">
+      <obj_property name="ElementShortName">dataO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/opcodePC" type="array">
+      <obj_property name="ElementShortName">opcodePC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">opcodePC[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/pcO" type="array">
+      <obj_property name="ElementShortName">pcO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/shouldbranch" type="logic">
+      <obj_property name="ElementShortName">shouldbranch</obj_property>
+      <obj_property name="ObjectShortName">shouldbranch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/Fetch" type="logic">
+      <obj_property name="ElementShortName">Fetch</obj_property>
+      <obj_property name="ObjectShortName">Fetch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/Decoder" type="logic">
+      <obj_property name="ElementShortName">Decoder</obj_property>
+      <obj_property name="ObjectShortName">Decoder</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/RegisterRead" type="logic">
+      <obj_property name="ElementShortName">RegisterRead</obj_property>
+      <obj_property name="ObjectShortName">RegisterRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/RegisterWrite" type="logic">
+      <obj_property name="ElementShortName">RegisterWrite</obj_property>
+      <obj_property name="ObjectShortName">RegisterWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/EnableALU" type="logic">
+      <obj_property name="ElementShortName">EnableALU</obj_property>
+      <obj_property name="ObjectShortName">EnableALU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCProcessor/EnableMemory" type="logic">
+      <obj_property name="ElementShortName">EnableMemory</obj_property>
+      <obj_property name="ObjectShortName">EnableMemory</obj_property>
+   </wvobject>
+</wave_config>

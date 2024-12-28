@@ -1,0 +1,21 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISCProcessor_behav xil_defaultlib.RISCProcessor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'O_immediate' [D:/Verilog/Vivado/16-Bit RISC Processor/16-Bit RISC Processor.srcs/sim_1/new/RISCProcessor.v:42]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Instruction_Decoder
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.RegisterHandler
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.RISCProcessor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISCProcessor_behav
